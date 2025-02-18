@@ -1,41 +1,41 @@
-# CSE3150LAB2SAMEMILE
 
 
-## Overview
+## Project Description
 
-This project implements a simple singly linked list in C++. It includes functionality for creating, displaying, modifying, and deleting nodes in the list. Unit testing is provided using the **Doctest** framework.
+This program provides an implementation of a singly linked list in C++. It includes operations for creating, displaying, modifying, and deleting nodes. Unit testing is performed using the **Doctest** framework.
 
-## Files
+## Source Code Files
 
-- **llist.h** - Header file containing the `Node` structure and function declarations.
-- **llist.cpp** - Implementation file defining linked list operations.
-- **llisttest.cpp** - Unit tests using the **Doctest** framework.
-- **doctest.h** - Single-header testing framework (included for testing).
+- **llist.h** - Defines the `Node` structure and function declarations.
+- **llist.cpp** - Contains the implementation of linked list operations.
+- **llisttest.cpp** - Unit tests written using the **Doctest** framework.
+- **doctest.h** - Single-header testing framework included for validation.
 
-## Features
+## Functionality
 
-- **Create a Linked List** from a vector of integers.
-- **Display the List** in a readable format.
-- **Fetch a Value** at a given index.
-- **Remove a Node** from a specified index.
-- **Clear the List** to free memory.
-- **Unit Tests** to validate functionality.
+- **List Creation** - Construct a linked list from a vector of integers.
+- **Displaying the List** - Print the elements in a readable format.
+- **Retrieving Elements** - Fetch a value from the list using an index.
+- **Node Removal** - Delete a node at a specified index.
+- **Clearing the List** - Free allocated memory and reset the list.
+- **Automated Testing** - Verify correctness using unit tests.
 
-## Compilation & Execution
+## How to Compile and Run
 
-To compile the project, use:
+### Compiling
+
+Use the following command to compile the project:
 
 ```bash
  g++ -o test llisttest.cpp llist.cpp -std=c++17
 ```
 
-To run the tests:
+### Running Tests
+
+Execute the compiled file to run the unit tests:
 
 ```bash
  ./test
-```
-
-```
 ```
 
 ##
